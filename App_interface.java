@@ -58,20 +58,41 @@ public class App_interface extends javax.swing.JFrame {
         buttonBaiHat.setFont(new java.awt.Font("Georgia", 3, 18)); // NOI18N
         buttonBaiHat.setForeground(new java.awt.Color(255, 0, 255));
         buttonBaiHat.setText("Bài Hát");
+<<<<<<< Updated upstream
+=======
+        buttonBaiHat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonBaiHatActionPerformed(evt);
+            }
+        });
+>>>>>>> Stashed changes
 
         ButtonPlayList.setBackground(new java.awt.Color(153, 255, 255));
         ButtonPlayList.setFont(new java.awt.Font("Georgia", 3, 18)); // NOI18N
         ButtonPlayList.setForeground(new java.awt.Color(255, 0, 255));
         ButtonPlayList.setText("PlayList");
+<<<<<<< Updated upstream
+=======
+        ButtonPlayList.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonPlayListActionPerformed(evt);
+            }
+        });
+>>>>>>> Stashed changes
 
         ButtonTaoPlayList.setBackground(new java.awt.Color(153, 255, 255));
         ButtonTaoPlayList.setFont(new java.awt.Font("Dialog", 3, 18)); // NOI18N
         ButtonTaoPlayList.setForeground(new java.awt.Color(255, 0, 255));
         ButtonTaoPlayList.setText("Tạo PlayList");
 
+<<<<<<< Updated upstream
         jList1.setBackground(new java.awt.Color(153, 255, 255));
         jList1.setFont(new java.awt.Font("Segoe UI", 3, 16)); // NOI18N
         jList1.setForeground(new java.awt.Color(255, 0, 255));
+=======
+        jList1.setFont(new java.awt.Font("Segoe UI", 3, 15)); // NOI18N
+        jList1.setForeground(new java.awt.Color(0, 0, 255));
+>>>>>>> Stashed changes
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "tên bài hat 1 - tác giả", "tên bài hat 2 - tác giả", "tên bài hat 3 - tác giả", "tên bài hat 4 - tác giả", "tên bài hat 5 - tác giả" };
             public int getSize() { return strings.length; }
@@ -109,6 +130,14 @@ public class App_interface extends javax.swing.JFrame {
         jLabel4.setText("Số Lượng:");
 
         ButtonNguoiDung.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/anhtaikhoan.png"))); // NOI18N
+<<<<<<< Updated upstream
+=======
+        ButtonNguoiDung.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonNguoiDungActionPerformed(evt);
+            }
+        });
+>>>>>>> Stashed changes
 
         ButtonTai1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/tải.jpg"))); // NOI18N
 
@@ -155,7 +184,11 @@ public class App_interface extends javax.swing.JFrame {
                         .addComponent(jLabel2))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(15, 15, 15)
+<<<<<<< Updated upstream
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE)
+=======
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 393, javax.swing.GroupLayout.PREFERRED_SIZE)
+>>>>>>> Stashed changes
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(ButtonTai1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -214,6 +247,30 @@ public class App_interface extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< Updated upstream
+=======
+    private void ButtonNguoiDungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonNguoiDungActionPerformed
+        // TODO add your handling code here:
+        dispose();
+        User_information user_information =  new User_information();
+        user_information.setVisible(true);
+    }//GEN-LAST:event_ButtonNguoiDungActionPerformed
+
+    private void buttonBaiHatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonBaiHatActionPerformed
+        // TODO add your handling code here:
+        dispose();
+        SongList songList = new SongList();
+        songList.setVisible(true);
+    }//GEN-LAST:event_buttonBaiHatActionPerformed
+
+    private void ButtonPlayListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonPlayListActionPerformed
+        // TODO add your handling code here:
+        dispose();
+        PlayList playList = new PlayList();
+        playList.setVisible(true);
+    }//GEN-LAST:event_ButtonPlayListActionPerformed
+
+>>>>>>> Stashed changes
     /**
      * @param args the command line arguments
      */

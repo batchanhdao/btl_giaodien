@@ -205,7 +205,11 @@ public class LoginForm extends javax.swing.JFrame {
             return;
         }
         txtPassword.setBackground(Color.WHITE);
-        JOptionPane.showMessageDialog(this, "Thông tin hợp lệ");
+//        JOptionPane.showMessageDialog(this, "Thông tin hợp lệ");
+          dispose();
+          App_interface inter = new App_interface();
+          inter.setVisible(true);
+          
     }//GEN-LAST:event_ButtonLoginActionPerformed
 
     private void buttonSignupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonSignupActionPerformed
@@ -213,8 +217,8 @@ public class LoginForm extends javax.swing.JFrame {
         dispose();
         SignupForm signup = new SignupForm();
         signup.setVisible(true);
-        
-        
+
+
     }//GEN-LAST:event_buttonSignupActionPerformed
 
     /**

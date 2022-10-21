@@ -210,12 +210,14 @@ public class SignupForm extends javax.swing.JFrame {
             return;
         }
         txtConfirmPassword.setBackground(Color.WHITE);
-
-        JOptionPane.showMessageDialog(this, "Thông tin hợp lệ");
+        dispose();
+        App_interface inter = new App_interface();
+        inter.setVisible(true);
+//        JOptionPane.showMessageDialog(this, "Thông tin hợp lệ");
 //        dispose();
 //        LoginForm login = new LoginForm();
 //        login.setVisible(true);
-        
+
     }//GEN-LAST:event_btXacNhanActionPerformed
 
     /**
