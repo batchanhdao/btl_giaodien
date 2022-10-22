@@ -3,14 +3,7 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
     <Property name="title" type="java.lang.String" value="B&#xe0;i T&#x1ead;p L&#x1edb;n Nh&#xf3;m 13"/>
->>>>>>> Stashed changes
-=======
-    <Property name="title" type="java.lang.String" value="B&#xe0;i T&#x1ead;p L&#x1edb;n Nh&#xf3;m 13"/>
->>>>>>> Stashed changes
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -42,28 +35,12 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="TextMatkhau" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                      <Component id="ButtonChangeMatkhau" min="-2" max="-2" attributes="0"/>
-=======
                       <Component id="ButtonXemMatkhau" min="-2" max="-2" attributes="0"/>
->>>>>>> Stashed changes
-=======
-                      <Component id="ButtonXemMatkhau" min="-2" max="-2" attributes="0"/>
->>>>>>> Stashed changes
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="TextTen" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                      <Component id="ButtonChangeTen" min="-2" max="-2" attributes="0"/>
-=======
                       <Component id="ButtonXemTen" min="-2" max="-2" attributes="0"/>
->>>>>>> Stashed changes
-=======
-                      <Component id="ButtonXemTen" min="-2" max="-2" attributes="0"/>
->>>>>>> Stashed changes
                   </Group>
               </Group>
           </Group>
@@ -71,21 +48,10 @@
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                      <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
-                      <Component id="ButtonDangXuat" min="-2" max="-2" attributes="0"/>
-=======
-=======
->>>>>>> Stashed changes
                       <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
                       <Component id="ButtonDangXuat" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Component id="ButtonChange" min="-2" max="-2" attributes="0"/>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="ButtonBack" min="-2" pref="36" max="-2" attributes="0"/>
@@ -93,15 +59,7 @@
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              <EmptySpace max="32767" attributes="0"/>
-=======
               <EmptySpace pref="68" max="32767" attributes="0"/>
->>>>>>> Stashed changes
-=======
-              <EmptySpace pref="68" max="32767" attributes="0"/>
->>>>>>> Stashed changes
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="0" pref="86" max="32767" attributes="0"/>
@@ -128,47 +86,21 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="TextTen" alignment="3" min="-2" max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                  <Component id="ButtonChangeTen" alignment="3" min="-2" max="-2" attributes="0"/>
-=======
                   <Component id="ButtonXemTen" alignment="3" min="-2" max="-2" attributes="0"/>
->>>>>>> Stashed changes
-=======
-                  <Component id="ButtonXemTen" alignment="3" min="-2" max="-2" attributes="0"/>
->>>>>>> Stashed changes
               </Group>
               <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="TextMatkhau" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                  <Component id="ButtonChangeMatkhau" alignment="3" min="-2" max="-2" attributes="0"/>
-=======
                   <Component id="ButtonXemMatkhau" alignment="3" min="-2" max="-2" attributes="0"/>
->>>>>>> Stashed changes
-=======
-                  <Component id="ButtonXemMatkhau" alignment="3" min="-2" max="-2" attributes="0"/>
->>>>>>> Stashed changes
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              <Component id="ButtonDangXuat" min="-2" max="-2" attributes="0"/>
-=======
-=======
->>>>>>> Stashed changes
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="ButtonDangXuat" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="ButtonChange" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -220,31 +152,11 @@
         <Property name="text" type="java.lang.String" value="M&#x1ead;t Kh&#x1ea9;u "/>
       </Properties>
     </Component>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    <Component class="javax.swing.JButton" name="ButtonChangeTen">
-=======
     <Component class="javax.swing.JButton" name="ButtonXemTen">
->>>>>>> Stashed changes
-=======
-    <Component class="javax.swing.JButton" name="ButtonXemTen">
->>>>>>> Stashed changes
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Dialog" size="14" style="3"/>
         </Property>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="0" red="ff" type="rgb"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Change"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="ButtonChangeMatkhau">
-=======
-=======
->>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="Xem"/>
       </Properties>
       <Events>
@@ -252,28 +164,10 @@
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="ButtonXemMatkhau">
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Dialog" size="14" style="3"/>
         </Property>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="0" red="ff" type="rgb"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Change"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="TextTen">
-    </Component>
-    <Component class="javax.swing.JTextField" name="TextMatkhau">
-=======
-=======
->>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="Xem"/>
       </Properties>
       <Events>
@@ -289,10 +183,6 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="******"/>
       </Properties>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     </Component>
     <Component class="javax.swing.JButton" name="ButtonDangXuat">
       <Properties>
@@ -323,11 +213,6 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonBackActionPerformed"/>
       </Events>
     </Component>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
     <Component class="javax.swing.JButton" name="ButtonChange">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -342,9 +227,5 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonChangeActionPerformed"/>
       </Events>
     </Component>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   </SubComponents>
 </Form>

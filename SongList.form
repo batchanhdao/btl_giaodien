@@ -3,14 +3,7 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
     <Property name="title" type="java.lang.String" value="B&#xe0;i T&#x1ead;p L&#x1edb;n Nh&#xf3;m 13"/>
->>>>>>> Stashed changes
-=======
-    <Property name="title" type="java.lang.String" value="B&#xe0;i T&#x1ead;p L&#x1edb;n Nh&#xf3;m 13"/>
->>>>>>> Stashed changes
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -31,70 +24,27 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-          <Component id="jSeparator1" max="32767" attributes="0"/>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="ButtonBack" min="-2" pref="35" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
                       <EmptySpace max="32767" attributes="0"/>
                       <Component id="ButtonThemVaoPlaylist" min="-2" pref="28" max="-2" attributes="0"/>
->>>>>>> Stashed changes
-=======
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="ButtonThemVaoPlaylist" min="-2" pref="28" max="-2" attributes="0"/>
->>>>>>> Stashed changes
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" pref="169" max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="ButtonThemVaoPlaylist" min="-2" pref="28" max="-2" attributes="0"/>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                   </Group>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="ButtonXoa" min="-2" pref="29" max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-          </Group>
-          <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jCheckBox1" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jCheckBox2" min="-2" max="-2" attributes="0"/>
-                  <Component id="jCheckBox3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jCheckBox4" min="-2" max="-2" attributes="0"/>
-                  <Component id="jCheckBox5" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="328" max="-2" attributes="0"/>
-=======
-=======
->>>>>>> Stashed changes
               <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
               <Component id="jScrollPane1" min="-2" pref="351" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
           </Group>
       </Group>
     </DimensionLayout>
@@ -103,45 +53,6 @@
           <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="ButtonBack" alignment="0" min="-2" max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="ButtonXoa" min="-2" pref="27" max="-2" attributes="0"/>
-                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="ButtonThemVaoPlaylist" min="-2" pref="27" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                      <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jCheckBox2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jCheckBox3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jCheckBox4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jCheckBox5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
-                  <Component id="jScrollPane1" pref="221" max="32767" attributes="0"/>
-              </Group>
-=======
-=======
->>>>>>> Stashed changes
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -155,10 +66,6 @@
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jScrollPane1" pref="191" max="32767" attributes="0"/>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
           </Group>
       </Group>
     </DimensionLayout>
@@ -182,22 +89,6 @@
         <Property name="text" type="java.lang.String" value="Danh S&#xe1;ch B&#xe0;i H&#xe1;t"/>
       </Properties>
     </Component>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    <Component class="javax.swing.JSeparator" name="jSeparator1">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="ff" red="99" type="rgb"/>
-        </Property>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="0" red="ff" type="rgb"/>
-        </Property>
-      </Properties>
-    </Component>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     <Component class="javax.swing.JButton" name="ButtonBack">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -244,25 +135,12 @@
               <Color blue="ff" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              <StringArray count="5">
-=======
               <StringArray count="12">
->>>>>>> Stashed changes
-=======
-              <StringArray count="12">
->>>>>>> Stashed changes
                 <StringItem index="0" value="Item 1"/>
                 <StringItem index="1" value="Item 2"/>
                 <StringItem index="2" value="Item 3"/>
                 <StringItem index="3" value="Item 4"/>
                 <StringItem index="4" value="Item 5"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
                 <StringItem index="5" value="a"/>
                 <StringItem index="6" value="a"/>
                 <StringItem index="7" value="a"/>
@@ -270,10 +148,6 @@
                 <StringItem index="9" value="a"/>
                 <StringItem index="10" value="a"/>
                 <StringItem index="11" value=" "/>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
               </StringArray>
             </Property>
           </Properties>
@@ -283,21 +157,5 @@
         </Component>
       </SubComponents>
     </Container>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    <Component class="javax.swing.JCheckBox" name="jCheckBox1">
-    </Component>
-    <Component class="javax.swing.JCheckBox" name="jCheckBox2">
-    </Component>
-    <Component class="javax.swing.JCheckBox" name="jCheckBox3">
-    </Component>
-    <Component class="javax.swing.JCheckBox" name="jCheckBox4">
-    </Component>
-    <Component class="javax.swing.JCheckBox" name="jCheckBox5">
-    </Component>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   </SubComponents>
 </Form>

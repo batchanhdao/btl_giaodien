@@ -4,18 +4,9 @@
  */
 package btl_giaodien;
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 import java.awt.Color;
 import javax.swing.JOptionPane;
 
->>>>>>> Stashed changes
-=======
-import java.awt.Color;
-import javax.swing.JOptionPane;
-
->>>>>>> Stashed changes
 /**
  *
  * @author Admin
@@ -43,38 +34,17 @@ public class User_information extends javax.swing.JFrame {
         jSeparator1 = new javax.swing.JSeparator();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        ButtonChangeTen = new javax.swing.JButton();
-        ButtonChangeMatkhau = new javax.swing.JButton();
-=======
         ButtonXemTen = new javax.swing.JButton();
         ButtonXemMatkhau = new javax.swing.JButton();
->>>>>>> Stashed changes
-=======
-        ButtonXemTen = new javax.swing.JButton();
-        ButtonXemMatkhau = new javax.swing.JButton();
->>>>>>> Stashed changes
         TextTen = new javax.swing.JTextField();
         TextMatkhau = new javax.swing.JTextField();
         ButtonDangXuat = new javax.swing.JButton();
         jSeparator2 = new javax.swing.JSeparator();
         ButtonBack = new javax.swing.JButton();
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-=======
-=======
->>>>>>> Stashed changes
         ButtonChange = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Bài Tập Lớn Nhóm 13");
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/icon.png"))); // NOI18N
 
@@ -91,18 +61,6 @@ public class User_information extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 0, 255));
         jLabel4.setText("Mật Khẩu ");
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        ButtonChangeTen.setFont(new java.awt.Font("Dialog", 3, 14)); // NOI18N
-        ButtonChangeTen.setForeground(new java.awt.Color(255, 0, 51));
-        ButtonChangeTen.setText("Change");
-
-        ButtonChangeMatkhau.setFont(new java.awt.Font("Dialog", 3, 14)); // NOI18N
-        ButtonChangeMatkhau.setForeground(new java.awt.Color(255, 0, 51));
-        ButtonChangeMatkhau.setText("Change");
-=======
-=======
->>>>>>> Stashed changes
         ButtonXemTen.setFont(new java.awt.Font("Dialog", 3, 14)); // NOI18N
         ButtonXemTen.setText("Xem");
         ButtonXemTen.addActionListener(new java.awt.event.ActionListener() {
@@ -122,10 +80,6 @@ public class User_information extends javax.swing.JFrame {
         TextTen.setText("xxxxxx");
 
         TextMatkhau.setText("******");
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
         ButtonDangXuat.setFont(new java.awt.Font("Dialog", 3, 14)); // NOI18N
         ButtonDangXuat.setForeground(new java.awt.Color(255, 0, 0));
@@ -144,11 +98,6 @@ public class User_information extends javax.swing.JFrame {
             }
         });
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
         ButtonChange.setFont(new java.awt.Font("Dialog", 3, 14)); // NOI18N
         ButtonChange.setForeground(new java.awt.Color(255, 0, 51));
         ButtonChange.setText("Change");
@@ -158,10 +107,6 @@ public class User_information extends javax.swing.JFrame {
             }
         });
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -176,57 +121,24 @@ public class User_information extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(TextMatkhau)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                        .addComponent(ButtonChangeMatkhau))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(TextTen)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(ButtonChangeTen))))
-=======
-=======
->>>>>>> Stashed changes
                         .addComponent(ButtonXemMatkhau))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(TextTen)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(ButtonXemTen))))
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
             .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                        .addGap(125, 125, 125)
-                        .addComponent(ButtonDangXuat))
-=======
-=======
->>>>>>> Stashed changes
                         .addGap(71, 71, 71)
                         .addComponent(ButtonDangXuat)
                         .addGap(26, 26, 26)
                         .addComponent(ButtonChange))
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(ButtonBack, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(110, 110, 110)
                         .addComponent(jLabel1)))
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-=======
                 .addContainerGap(68, Short.MAX_VALUE))
->>>>>>> Stashed changes
-=======
-                .addContainerGap(68, Short.MAX_VALUE))
->>>>>>> Stashed changes
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 86, Short.MAX_VALUE)
                 .addComponent(jLabel2)
@@ -248,29 +160,11 @@ public class User_information extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(TextTen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                    .addComponent(ButtonChangeTen))
-=======
                     .addComponent(ButtonXemTen))
->>>>>>> Stashed changes
-=======
-                    .addComponent(ButtonXemTen))
->>>>>>> Stashed changes
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(TextMatkhau, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel4)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                    .addComponent(ButtonChangeMatkhau))
-                .addGap(18, 18, 18)
-                .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(ButtonDangXuat)
-=======
-=======
->>>>>>> Stashed changes
                     .addComponent(ButtonXemMatkhau))
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -278,10 +172,6 @@ public class User_information extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ButtonDangXuat)
                     .addComponent(ButtonChange))
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                 .addContainerGap())
         );
 
@@ -290,19 +180,10 @@ public class User_information extends javax.swing.JFrame {
 
     private void ButtonBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonBackActionPerformed
         // TODO add your handling code here:
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
         if (ButtonChange.getText().equals("Xác Nhận")) {
             JOptionPane.showMessageDialog(this, "Error\n" + "Bạn cần Xác Nhận thay đổi!");
             return;
         }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         dispose();
         App_interface inter = new App_interface();
         inter.setVisible(true);
@@ -315,11 +196,6 @@ public class User_information extends javax.swing.JFrame {
         loginForm.setVisible(true);
     }//GEN-LAST:event_ButtonDangXuatActionPerformed
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
     private void ButtonXemTenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonXemTenActionPerformed
         // TODO add your handling code here:
         if (ButtonChange.getText().equals("Xác Nhận")) {
@@ -385,10 +261,6 @@ public class User_information extends javax.swing.JFrame {
 
     }//GEN-LAST:event_ButtonChangeActionPerformed
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     /**
      * @param args the command line arguments
      */
@@ -426,22 +298,10 @@ public class User_information extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton ButtonBack;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    private javax.swing.JButton ButtonChangeMatkhau;
-    private javax.swing.JButton ButtonChangeTen;
-    private javax.swing.JButton ButtonDangXuat;
-=======
-=======
->>>>>>> Stashed changes
     private javax.swing.JButton ButtonChange;
     private javax.swing.JButton ButtonDangXuat;
     private javax.swing.JButton ButtonXemMatkhau;
     private javax.swing.JButton ButtonXemTen;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     private javax.swing.JTextField TextMatkhau;
     private javax.swing.JTextField TextTen;
     private javax.swing.JLabel jLabel1;
