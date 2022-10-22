@@ -49,6 +49,10 @@ public class App_interface extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        setTitle("Bài Tập Lớn Nhóm 13");
+>>>>>>> Stashed changes
 =======
         setTitle("Bài Tập Lớn Nhóm 13");
 >>>>>>> Stashed changes
@@ -64,7 +68,10 @@ public class App_interface extends javax.swing.JFrame {
         buttonBaiHat.setText("Bài Hát");
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         buttonBaiHat.addActionListener(new java.awt.event.ActionListener() {
@@ -73,6 +80,9 @@ public class App_interface extends javax.swing.JFrame {
             }
         });
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -83,7 +93,10 @@ public class App_interface extends javax.swing.JFrame {
         ButtonPlayList.setText("PlayList");
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         ButtonPlayList.addActionListener(new java.awt.event.ActionListener() {
@@ -92,6 +105,9 @@ public class App_interface extends javax.swing.JFrame {
             }
         });
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -103,9 +119,14 @@ public class App_interface extends javax.swing.JFrame {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jList1.setBackground(new java.awt.Color(153, 255, 255));
         jList1.setFont(new java.awt.Font("Segoe UI", 3, 16)); // NOI18N
         jList1.setForeground(new java.awt.Color(255, 0, 255));
+=======
+        jList1.setFont(new java.awt.Font("Segoe UI", 3, 15)); // NOI18N
+        jList1.setForeground(new java.awt.Color(0, 0, 255));
+>>>>>>> Stashed changes
 =======
         jList1.setFont(new java.awt.Font("Segoe UI", 3, 15)); // NOI18N
         jList1.setForeground(new java.awt.Color(0, 0, 255));
@@ -121,6 +142,10 @@ public class App_interface extends javax.swing.JFrame {
         });
         jList1.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_INTERVAL_SELECTION);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        jList1.setFocusTraversalPolicyProvider(true);
+>>>>>>> Stashed changes
 =======
         jList1.setFocusTraversalPolicyProvider(true);
 >>>>>>> Stashed changes
@@ -157,7 +182,10 @@ public class App_interface extends javax.swing.JFrame {
         ButtonNguoiDung.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/anhtaikhoan.png"))); // NOI18N
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         ButtonNguoiDung.addActionListener(new java.awt.event.ActionListener() {
@@ -166,6 +194,9 @@ public class App_interface extends javax.swing.JFrame {
             }
         });
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -215,11 +246,15 @@ public class App_interface extends javax.swing.JFrame {
                         .addComponent(jLabel2))
                     .addGroup(layout.createSequentialGroup()
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         .addGap(15, 15, 15)
 <<<<<<< Updated upstream
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE)
 =======
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 393, javax.swing.GroupLayout.PREFERRED_SIZE)
+>>>>>>> Stashed changes
+=======
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 408, javax.swing.GroupLayout.PREFERRED_SIZE)
 >>>>>>> Stashed changes
 =======
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 408, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -237,7 +272,11 @@ public class App_interface extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addGap(18, 18, 18)
+=======
+                .addContainerGap(18, Short.MAX_VALUE)
+>>>>>>> Stashed changes
 =======
                 .addContainerGap(18, Short.MAX_VALUE)
 >>>>>>> Stashed changes
@@ -268,7 +307,11 @@ public class App_interface extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel2)))
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addGap(18, 18, 18)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+>>>>>>> Stashed changes
 =======
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
 >>>>>>> Stashed changes
@@ -284,8 +327,12 @@ public class App_interface extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(ButtonTai5, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(32, Short.MAX_VALUE))
+=======
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)))
+>>>>>>> Stashed changes
 =======
                     .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)))
 >>>>>>> Stashed changes
@@ -296,7 +343,10 @@ public class App_interface extends javax.swing.JFrame {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     private void ButtonNguoiDungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonNguoiDungActionPerformed
@@ -321,6 +371,9 @@ public class App_interface extends javax.swing.JFrame {
     }//GEN-LAST:event_ButtonPlayListActionPerformed
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

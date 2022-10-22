@@ -24,7 +24,10 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           <Component id="jSeparator1" max="32767" attributes="0"/>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
           <Group type="102" attributes="0">
@@ -34,6 +37,11 @@
                       <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="ButtonXoa" min="-2" pref="29" max="-2" attributes="0"/>
+>>>>>>> Stashed changes
 =======
                       <EmptySpace max="32767" attributes="0"/>
                       <Component id="ButtonXoa" min="-2" pref="29" max="-2" attributes="0"/>
@@ -42,6 +50,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" pref="178" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                   </Group>
               </Group>
@@ -59,6 +68,8 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jScrollPane1" min="-2" pref="335" max="-2" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -67,6 +78,9 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jScrollPane1" min="-2" pref="358" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </Group>
       </Group>
@@ -76,6 +90,7 @@
           <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="ButtonBack" alignment="0" min="-2" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
@@ -107,6 +122,8 @@
                   <Component id="jScrollPane1" pref="221" max="32767" attributes="0"/>
               </Group>
 =======
+=======
+>>>>>>> Stashed changes
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -119,6 +136,9 @@
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jScrollPane1" pref="202" max="32767" attributes="0"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </Group>
       </Group>
@@ -144,6 +164,7 @@
       </Properties>
     </Component>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Component class="javax.swing.JSeparator" name="jSeparator1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -154,6 +175,8 @@
         </Property>
       </Properties>
     </Component>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <Component class="javax.swing.JButton" name="ButtonBack">
@@ -211,6 +234,7 @@
       </SubComponents>
     </Container>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Component class="javax.swing.JCheckBox" name="jCheckBox1">
     </Component>
     <Component class="javax.swing.JCheckBox" name="jCheckBox2">
@@ -221,6 +245,8 @@
     </Component>
     <Component class="javax.swing.JCheckBox" name="jCheckBox5">
     </Component>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   </SubComponents>

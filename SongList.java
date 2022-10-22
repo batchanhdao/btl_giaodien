@@ -29,7 +29,10 @@ public class SongList extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jSeparator1 = new javax.swing.JSeparator();
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         ButtonBack = new javax.swing.JButton();
@@ -37,6 +40,7 @@ public class SongList extends javax.swing.JFrame {
         ButtonXoa = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         ListSong = new javax.swing.JList<>();
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         jCheckBox1 = new javax.swing.JCheckBox();
         jCheckBox2 = new javax.swing.JCheckBox();
@@ -50,6 +54,11 @@ public class SongList extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Bài Tập Lớn Nhóm 13");
 >>>>>>> Stashed changes
+=======
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Bài Tập Lớn Nhóm 13");
+>>>>>>> Stashed changes
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/icon.png"))); // NOI18N
 
@@ -58,9 +67,12 @@ public class SongList extends javax.swing.JFrame {
         jLabel2.setText("Danh Sách Bài Hát");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jSeparator1.setBackground(new java.awt.Color(153, 255, 51));
         jSeparator1.setForeground(new java.awt.Color(255, 0, 0));
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         ButtonBack.setBackground(new java.awt.Color(255, 255, 255));
@@ -80,7 +92,11 @@ public class SongList extends javax.swing.JFrame {
         ListSong.setForeground(new java.awt.Color(0, 0, 255));
         ListSong.setModel(new javax.swing.AbstractListModel<String>() {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
+=======
+            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "a", "a", "a", "a", "a", "a", " " };
+>>>>>>> Stashed changes
 =======
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "a", "a", "a", "a", "a", "a", " " };
 >>>>>>> Stashed changes
@@ -94,7 +110,10 @@ public class SongList extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             .addComponent(jSeparator1)
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             .addGroup(layout.createSequentialGroup()
@@ -102,6 +121,7 @@ public class SongList extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(ButtonBack, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(114, 114, 114)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
@@ -121,6 +141,8 @@ public class SongList extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE))
 =======
+=======
+>>>>>>> Stashed changes
                         .addComponent(jLabel1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(ButtonThemVaoPlaylist, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -133,6 +155,9 @@ public class SongList extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 351, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
         layout.setVerticalGroup(
@@ -142,6 +167,7 @@ public class SongList extends javax.swing.JFrame {
                     .addComponent(ButtonBack)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         .addComponent(jLabel1)))
                 .addGap(18, 18, 18)
@@ -169,6 +195,8 @@ public class SongList extends javax.swing.JFrame {
                         .addContainerGap())
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 221, Short.MAX_VALUE)))
 =======
+=======
+>>>>>>> Stashed changes
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(ButtonXoa, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel1)
@@ -177,6 +205,9 @@ public class SongList extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 191, Short.MAX_VALUE))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
 
@@ -229,6 +260,7 @@ public class SongList extends javax.swing.JFrame {
     private javax.swing.JButton ButtonXoa;
     private javax.swing.JList<String> ListSong;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JCheckBox jCheckBox3;
@@ -238,6 +270,11 @@ public class SongList extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
+=======
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JScrollPane jScrollPane1;
+>>>>>>> Stashed changes
 =======
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
