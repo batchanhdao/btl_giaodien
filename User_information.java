@@ -199,6 +199,7 @@ public class User_information extends javax.swing.JFrame {
     private void ButtonXemTenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonXemTenActionPerformed
         // TODO add your handling code here:
         if (ButtonChange.getText().equals("Xác Nhận")) {
+            TextTen.requestFocus();
             return;
         }
         String name = "name";
@@ -215,6 +216,7 @@ public class User_information extends javax.swing.JFrame {
     private void ButtonXemMatkhauActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonXemMatkhauActionPerformed
         // TODO add your handling code here:
         if (ButtonChange.getText().equals("Xác Nhận")) {
+            TextMatkhau.requestFocus();
             return;
         }
         String password = "password";
@@ -289,10 +291,8 @@ public class User_information extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new User_information().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new User_information().setVisible(true);
         });
     }
 

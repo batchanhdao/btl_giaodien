@@ -4,12 +4,18 @@
  */
 package btl_giaodien;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Admin
  */
 public class App_interface extends javax.swing.JFrame {
 
+    private String textSearch;
+    public String get(String textSearch){
+        return textSearch;
+    }
     /**
      * Creates new form App_interface
      */
@@ -103,6 +109,11 @@ public class App_interface extends javax.swing.JFrame {
         TextTimKiem.setForeground(new java.awt.Color(51, 204, 255));
 
         ButtonTimKiem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/images-removebg-preview (1).png"))); // NOI18N
+        ButtonTimKiem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonTimKiemActionPerformed(evt);
+            }
+        });
 
         ButtonThemBH.setBackground(new java.awt.Color(153, 255, 255));
         ButtonThemBH.setFont(new java.awt.Font("Dialog", 3, 18)); // NOI18N
@@ -248,6 +259,18 @@ public class App_interface extends javax.swing.JFrame {
         PlayList playList = new PlayList();
         playList.setVisible(true);
     }//GEN-LAST:event_ButtonPlayListActionPerformed
+
+    private void ButtonTimKiemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonTimKiemActionPerformed
+        // TODO add your handling code here:
+        if(TextTimKiem.getText().equals("")){
+            JOptionPane.showMessageDialog(this, "Error\n" + "Thanh Tìm Kiếm Trống");
+            return;
+        }
+        textSearch=TextTimKiem.getText();
+        dispose();
+        Search_interface search = new Search_interface();
+        search.setVisible(true);
+    }//GEN-LAST:event_ButtonTimKiemActionPerformed
 
     /**
      * @param args the command line arguments

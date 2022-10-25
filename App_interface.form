@@ -270,6 +270,9 @@
           <Image iconType="3" name="/btl_giaodien/images-removebg-preview (1).png"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonTimKiemActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="ButtonThemBH">
       <Properties>

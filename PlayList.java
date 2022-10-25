@@ -34,6 +34,7 @@ public class PlayList extends javax.swing.JFrame {
         PlayList = new javax.swing.JList<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Bài Tập Lớn Nhóm 13");
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/icon.png"))); // NOI18N
 
@@ -41,7 +42,6 @@ public class PlayList extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 0, 255));
         jLabel2.setText("Danh Sách PlayList");
 
-        ButtonBack.setBackground(new java.awt.Color(255, 255, 255));
         ButtonBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/quaylai.jpg"))); // NOI18N
         ButtonBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
