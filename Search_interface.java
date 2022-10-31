@@ -4,12 +4,29 @@
  */
 package btl_giaodien;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Admin
  */
 public class Search_interface extends javax.swing.JFrame {
 
+    private String textSearch="";
+    public void setTextSearch(String textSearch){
+        this.textSearch=textSearch;
+    }
+    public void setsoLuong(int soLuong){
+        textKQTK.setText("Kết Quả Tìm Kiếm Phù Hợp: "+String.valueOf(soLuong));
+    }
+    private List<String> dsBaiHat = new ArrayList<>();
+    public void setdsBaiHat(String baiHat){
+        dsBaiHat.add(baiHat);
+    }
+    public void setlistBaiHat(String[] baiHat){
+        listBaiHat.setListData(baiHat);
+    }
     /**
      * Creates new form Search_interface
      */
@@ -27,25 +44,26 @@ public class Search_interface extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
+        textKQTK = new javax.swing.JLabel();
+        ButtonTaiNhac = new javax.swing.JButton();
         ButtonQuayLai = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jList1 = new javax.swing.JList<>();
+        listBaiHat = new javax.swing.JList<>();
+        ButtonPhatNhac = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Bài Tập Lớn Nhóm 13");
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/icon.png"))); // NOI18N
+        jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jLabel2.setFont(new java.awt.Font("Dialog", 3, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 0, 255));
-        jLabel2.setText("Kết Quả Tìm Kiếm Phù Hợp:");
+        textKQTK.setFont(new java.awt.Font("Dialog", 3, 14)); // NOI18N
+        textKQTK.setForeground(new java.awt.Color(255, 0, 255));
+        textKQTK.setText("Kết Quả Tìm Kiếm Phù Hợp:");
 
-        jButton1.setFont(new java.awt.Font("Dialog", 3, 11)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/tải.jpg"))); // NOI18N
-        jButton1.setText("Tải Xuống");
+        ButtonTaiNhac.setFont(new java.awt.Font("Dialog", 3, 11)); // NOI18N
+        ButtonTaiNhac.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/tải.jpg"))); // NOI18N
+        ButtonTaiNhac.setText("Tải Xuống");
 
         ButtonQuayLai.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/quaylai.jpg"))); // NOI18N
         ButtonQuayLai.addActionListener(new java.awt.event.ActionListener() {
@@ -54,15 +72,19 @@ public class Search_interface extends javax.swing.JFrame {
             }
         });
 
-        jList1.setFont(new java.awt.Font("Dialog", 3, 14)); // NOI18N
-        jList1.setForeground(new java.awt.Color(0, 0, 255));
-        jList1.setModel(new javax.swing.AbstractListModel<String>() {
+        listBaiHat.setFont(new java.awt.Font("Dialog", 3, 14)); // NOI18N
+        listBaiHat.setForeground(new java.awt.Color(0, 0, 255));
+        listBaiHat.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
-        jList1.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        jScrollPane1.setViewportView(jList1);
+        listBaiHat.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_INTERVAL_SELECTION);
+        jScrollPane1.setViewportView(listBaiHat);
+
+        ButtonPhatNhac.setFont(new java.awt.Font("Dialog", 3, 11)); // NOI18N
+        ButtonPhatNhac.setIcon(new javax.swing.ImageIcon(getClass().getResource("/btl_giaodien/transparent-compact-disc-icon-music-icon-essential-set-icon-5d644cff9b2600.4298526315668543996355 (1).jpg"))); // NOI18N
+        ButtonPhatNhac.setText("Phát Nhạc");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -72,37 +94,33 @@ public class Search_interface extends javax.swing.JFrame {
                 .addComponent(ButtonQuayLai, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(115, 115, 115)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 79, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jButton1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 69, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(ButtonPhatNhac, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ButtonTaiNhac, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
             .addComponent(jScrollPane1)
             .addGroup(layout.createSequentialGroup()
                 .addGap(93, 93, 93)
-                .addComponent(jLabel2)
+                .addComponent(textKQTK)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(23, 23, 23)
-                            .addComponent(jLabel1))
-                        .addGroup(layout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(jButton1)
-                            .addGap(18, 18, 18)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                    .addComponent(ButtonQuayLai))
-                .addGap(12, 12, 12)
-                .addComponent(jLabel2)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(23, 23, 23)
+                        .addComponent(jLabel1))
+                    .addComponent(ButtonQuayLai)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(ButtonTaiNhac, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(ButtonPhatNhac, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(6, 6, 6)
+                .addComponent(textKQTK)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 189, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 183, Short.MAX_VALUE))
         );
 
         pack();
@@ -110,9 +128,15 @@ public class Search_interface extends javax.swing.JFrame {
 
     private void ButtonQuayLaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonQuayLaiActionPerformed
         // TODO add your handling code here:
+        System.out.println(textSearch);
+        for (String string : dsBaiHat) {
+            System.out.println(string);
+        }
+        
         dispose();
         App_interface app = new App_interface();
         app.setVisible(true);
+        
     }//GEN-LAST:event_ButtonQuayLaiActionPerformed
 
     /**
@@ -151,12 +175,12 @@ public class Search_interface extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton ButtonPhatNhac;
     private javax.swing.JButton ButtonQuayLai;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton ButtonTaiNhac;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JList<String> jList1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JList<String> listBaiHat;
+    private javax.swing.JLabel textKQTK;
     // End of variables declaration//GEN-END:variables
 }

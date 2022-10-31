@@ -4,6 +4,8 @@
  */
 package btl_giaodien;
 
+import java.util.ArrayList;
+import java.util.List;
 import javax.swing.JOptionPane;
 
 /**
@@ -12,10 +14,6 @@ import javax.swing.JOptionPane;
  */
 public class App_interface extends javax.swing.JFrame {
 
-    private String textSearch;
-    public String get(String textSearch){
-        return textSearch;
-    }
     /**
      * Creates new form App_interface
      */
@@ -242,7 +240,7 @@ public class App_interface extends javax.swing.JFrame {
     private void ButtonNguoiDungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonNguoiDungActionPerformed
         // TODO add your handling code here:
         dispose();
-        User_information user_information =  new User_information();
+        User_information user_information = new User_information();
         user_information.setVisible(true);
     }//GEN-LAST:event_ButtonNguoiDungActionPerformed
 
@@ -262,14 +260,31 @@ public class App_interface extends javax.swing.JFrame {
 
     private void ButtonTimKiemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonTimKiemActionPerformed
         // TODO add your handling code here:
-        if(TextTimKiem.getText().equals("")){
+        if (TextTimKiem.getText().equals("")) {
             JOptionPane.showMessageDialog(this, "Error\n" + "Thanh Tìm Kiếm Trống");
             return;
         }
-        textSearch=TextTimKiem.getText();
+        List<String> dsBaiHat = new ArrayList<>();
+        dsBaiHat.add("baihat1");
+        dsBaiHat.add("baihat2");
+        dsBaiHat.add("baihat3");
+        int soLuongPhuHop = 0;
+        String[] s = new String[100];
+        int i = 0;
         dispose();
         Search_interface search = new Search_interface();
         search.setVisible(true);
+        search.setTextSearch(TextTimKiem.getText());
+        for (String bh : dsBaiHat) {
+            if (bh.contains(TextTimKiem.getText())) {
+                soLuongPhuHop += 1;
+                search.setdsBaiHat(bh);
+                s[i] = bh;
+                i += 1;
+            }
+        }
+        search.setsoLuong(soLuongPhuHop);
+        search.setlistBaiHat(s);
     }//GEN-LAST:event_ButtonTimKiemActionPerformed
 
     /**
