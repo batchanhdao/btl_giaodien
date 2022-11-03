@@ -8,7 +8,7 @@ package btl_giaodien;
  *
  * @author Admin
  */
-public class BTL_giaoDien {
+public class Btl_giaodien {
 
     /**
      * @param args the command line arguments

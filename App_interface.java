@@ -273,6 +273,7 @@ public class App_interface extends javax.swing.JFrame {
         int i = 0;
         dispose();
         Search_interface search = new Search_interface();
+        search.setLocationRelativeTo(null);
         search.setVisible(true);
         search.setTextSearch(TextTimKiem.getText());
         for (String bh : dsBaiHat) {
